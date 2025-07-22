@@ -11,6 +11,13 @@
     --body-font: 'Figtree', sans-serif;
 }
 
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
