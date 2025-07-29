@@ -19,7 +19,6 @@
 
 
 header {
-    background-color: var(--primary-color);
     color: var(--accent2-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -119,7 +118,7 @@ article {
 .history h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 .history-row {
@@ -150,7 +149,7 @@ article {
 .adventures h2 {
     font-size: 2rem;
     margin-bottom: 30px;
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 .adventure-gallery {
@@ -181,7 +180,7 @@ article {
 footer {
     background-color: var(--accent2-color);
     padding: 20px;
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 .footer-container {
