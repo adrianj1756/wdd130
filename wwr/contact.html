@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting Company Contact Page</title>
+    <meta name="description"
+        content="Contact us for the best white water rafting adventures. Explore our trips and book your adventure today!">
+    <meta name="author" content="Adrian Jimenez Rafting Company">
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="contact-page">
+    <header>
+        <img src="images/raftinglogo.png" alt="Rafting Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h1>Inquiries</h1>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of the Message:</legend>
+                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label>
+                    <input type="checkbox" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit"
+                    style="margin-top: 1rem; padding: 0.5rem 1rem; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                    Submit
+                </button>
+            </form>
+        </section>
+
+        <section class="company-contact">
+            <h1>Contact Information</h1>
+            <address>
+                <p><strong>Address:</strong><br>
+                    Street Address 1<br>
+                    Suite #<br>
+                    City, State Zip</p>
+
+                <p><strong>Phone:</strong><br>
+                    Main: (123) 456-7890<br>
+                    Support: (987) 654-3210</p>
+
+                <p><strong>Email:</strong><br>
+                    <a href="mailto:info@company.com">info@company.com</a><br>
+                    <a href="mailto:support@company.com">support@company.com</a>
+                </p>
+            </address>
+        </section>
+
+        <section class="employee-spotlight">
+            <h1>Employee Spotlight</h1>
+            <div>
+                <figure>
+                    <img src="images/ourteam.jpg" alt="Employee 1">
+                    <figcaption>Our Team</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/raftingmanager.jpg" alt="Employee 2">
+                    <figcaption>Jane Doe - Rafting Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/raftingcoordinator.jpg" alt="Employee 3">
+                    <figcaption>John Smith - Rafting Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="location-map">
+            <h1>Find Us</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d711937.4628062389!2d-114.48151073200859!3d34.41405929372292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1754103916484!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <a href="https://app.moqups.com/9Tk3QuaHCQZ1JZqqqTDpNmnTlQikuEeN/view/page/ad64222d5" target="_blank">
+                    View Wireframe
+                </a>
+            </div>
+            <p>&copy; 2025 Rafting Company Name | Adrian Jimenez</p>
+            <nav class="socialmedia">
+                <a href="https://www.facebook.com">
+                    <img src="images/facebooklogo.webp" alt="Facebook Logo">
+                </a>
+                <a href="https://www.instagram.com">
+                    <img src="images/instagramlogo.webp" alt="Instagram Logo">
+                </a>
+                <a href="https://www.x.com">
+                    <img src="images/xlogo.webp" alt="X.com Logo">
+                </a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
