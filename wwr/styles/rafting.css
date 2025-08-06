@@ -199,7 +199,7 @@ footer {
 }
 
 .footer-left a {
-  color: var(--accent1-color);  /* matches footer text color */
+  color: var(--accent1-color); 
   text-decoration: underline;
   font-size: 0.9rem;
 }
